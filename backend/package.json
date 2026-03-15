@@ -1,0 +1,20 @@
+{
+  "name": "emergency-response-backend",
+  "version": "1.0.0",
+  "description": "Backend for Accident Reporting and Emergency Response System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "morgan": "^1.10.1",
+    "mysql2": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
